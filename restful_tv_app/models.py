@@ -8,8 +8,8 @@ class ShowManager(models.Manager):
         errors = {}
         if len(postData['title']) < 2:
             errors["title"] = "Title should be at least 2 characters"
-        if str(postData['title']) == str(postData['title']):
-            errors["title"] = "Title already exist!"
+        # if str(postData['title']) == str(postData['title']):
+        #     errors["title"] = "Title already exist!"
         if len(postData['network']) < 2:
             errors["network"] = "Network should be at least 2 characters"
         # if  (postData['release_date']) > (datetime.date.today()):
