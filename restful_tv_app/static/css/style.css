@@ -14,3 +14,13 @@ form {
     margin-right: auto;
     text-align: left;
 }
+
+label {
+    font-weight: bold;
+}
+
+ul {
+    list-style-position: inside;
+    color: red;
+    text-align: justify;
+}
